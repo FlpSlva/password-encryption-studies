@@ -25,16 +25,7 @@ export class CreateUser1642790479060 implements MigrationInterface {
                         name: "email",
                         type: "varchar"
                     },
-                    {
-                        name: "driver_license",
-                        type: "varchar"
-                    },
-                    {
-                        name: "isAdmin",
-                        type: "boolean",
-                        default: false
-                        
-                    },
+                   
                     {
                         name: "created_at",
                         type: "timestamp",
