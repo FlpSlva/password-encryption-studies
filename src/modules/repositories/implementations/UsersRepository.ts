@@ -33,3 +33,5 @@ class UsersRepository implements IUsersRepository{
     }
     
 }
+
+export {UsersRepository}
