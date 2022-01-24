@@ -1,7 +1,7 @@
 import "reflect-metadata"
 import express, { json }  from "express";
 import { router } from './routes';
-
+import "./shared/container"
 
 const app = express()
 const port = 3333;
